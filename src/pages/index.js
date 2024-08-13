@@ -19,7 +19,7 @@ export default function Home() {
 			wrapperClassName='es-footer-white'
 		>
 			<Hero
-				title='Customer Support'
+				title='CicadaVPN Customer Support'
 				subtitle='All the tools you need to supercharge your internet with cicadaVPN. Unblock the internet on your smartphone, tablet, laptop or your entire home.'
 				buttonLabel='Get started'
 				buttonUrl='#get-started'
