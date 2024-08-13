@@ -1,41 +1,47 @@
 ---
 id: eightshift-libs
-title: Eightshift Libs
+title: Account & Payments
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/infinum/eightshift-libs)
+[![source](https://img.shields.io/badge/source-CicadaVPN-blue?style=for-the-badge&logo=markdown&labelColor=2a2a2a)](https://github.com/BlorpBleep/support)
 
-This library is aimed at bringing modern back-end development tools to the [eightshift Boilerplate](https://github.com/infinum/eightshift-boilerplate) or [eightshift Boilerplate Plugin](https://github.com/infinum/eightshift-boilerplate-plugin), but you can use it on any WordPress project.
+Welcome to the CicadaVPN support section for account and payment issues. We're here to help you resolve any problems you might encounter with your account or payments. If you have any questions or need assistance, you've come to the right place!
 
-It uses a dependency injection container that provides a way to inject dependencies into classes to obey the single responsibility principle (SRP). Every class is responsible for registering its hooks, loaded automatically by the dependency injection container. This provides a more testable environment for your project.
+## FAQ
 
-We provide helpers, abstract classes, interfaces, and abstractions on original WordPress functionality to help you write more modern code.
+**I have lost my account number. How do I get it back?**  
+Follow the steps outlined in our account recovery guide to regain access to your account number.
 
-## Prerequisites
+**Do you offer discounts or have sales?**  
+We do not offer sales. However, we provide a 10% discount on payments made with accepted cryptocurrencies due to lower fees and administrative costs. For more details, visit our [pricing page](#).
 
-In our projects, we use object-oriented PHP, design patterns, and the SOLID principle. When you work on complex projects with various third-party integrations, it makes sense to use our boilerplate. You want your code to be easily extended, testable, and future-proof.
+**How many devices can I use my CicadaVPN account on?**  
+You can use your CicadaVPN account on up to 5 devices.
 
-If all you need is a simple website, some of these concepts might be too much for you, and you won't see many benefits in using them. This is totally valid. We need to pick our battles and decide for ourselves what is the best tool for the job.
+**How can I check if a payment has been processed or how much time is left on my account?**  
+Log in to the Account Status page on our website to view your account information and payment status.
 
-If you want to try our setup, but you might not be as versed in the above concepts, don't worry. We have lots of examples and we tried to make them easy to follow.
+**Do you offer a money-back guarantee?**  
+Yes, we offer a 30-day money-back guarantee, except for cash and cryptocurrency payments due to anti-money laundering regulations. For refund instructions, please refer to our [refund policy](#).
 
-### The library contains
+**I have paid but can't connect!**  
+If you receive a message indicating that your account has expired, it may be due to payment processing issues. Check the status of your payment through your PayPal account if applicable, as PayPal can sometimes delay transaction updates. For cryptocurrency payments, ensure the transaction has been confirmed. Bank wire payments may take 1–2 business days to process.
 
-- Dependency injection container
-- PSR-4 autoloader
-- Autowiring of your service classes
-- WP-CLI commands to get all the features in your project using a single terminal command
-- Interfaces
-- Abstract classes
-- Helpers
-- ...
+**How do I cancel my PayPal subscription?**  
+To unsubscribe, log in to the Account Status page on our website, click the PayPal Subscription icon, and select the "Unsubscribe" button.
 
-## How to integrate into an existing project
+**Can I get a receipt that specifies VAT?**  
+Yes, for VAT-specific receipts, please refer to our [Invoices guide](#).
 
-The process of integrating the libs into an existing project is not easy, because it really depends on how your theme or plugin is built. Our libs expect the usage of namespacing, and adding namespace in a non namespaced codebase can potentially cause breakage.
+**I have a business. How do I pay for your service without VAT?**  
+As a consumer retailer, we do not offer VAT-exempt purchases for business accounts.
 
-You can try to manually add the backend libs using composer and frontend using npm, but the process of connecting everything up can be a complex one. So we recommend starting from a clean slate.
+**Can I purchase more devices for my account? I have reached the five-device limit.**  
+We cannot add more devices to a single account. You may either create a second account or install CicadaVPN on a router with OpenVPN or WireGuard to cover all devices on your local network.
 
-## Who do I talk to?
+**How do I delete my account?**  
+To request account deletion, please email us at [support@cicadavpn.com](mailto:support@cicadavpn.com).
 
-If you have any questions or problems, please [open an issue](https://github.com/infinum/eightshift-libs/issues) on GitHub, and we will do our best to give you a timely answer.
+**How do I log in on my other devices? The CicadaVPN app says I need to pay again?**  
+1. On the device with an active CicadaVPN account, tap the account button in the top right corner, then tap the eye icon to view your account number.
+2. On your other devices, log out of the CicadaVPN app if you are already logged in. Then, log in using the account number you obtained from your first device.

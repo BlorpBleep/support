@@ -1,7 +1,7 @@
 ---
 id: theme
-title: Create a new WordPress theme
-sidebar_label: Create New Theme
+title: Features
+sidebar_label: CicadaVPN Features
 ---
 
 Let's create a new theme!

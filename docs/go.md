@@ -1,7 +1,7 @@
 ---
 id: go
-title: Go
-sidebar_label: Go
+title: CicadaVPN App
+sidebar_label: CicadaVPN App
 ---
 
 Let's create a GO plugin!

@@ -28,18 +28,17 @@ export default function Home() {
 			/>
 
 			<ImageAndText
-				title='A WordPress boilerplate from the future'
+				title='A VPN service from the future'
 				imageUrl='/img/homepage/block-cards.svg'
 				gray
 			>
-				eightshift Development kit makes building complex WordPress themes and plugins painless.
-				<br /> <br />
-				Use and extend our block and component collection to build out dynamic Gutenberg blocks.
-				Extract commonly-used UI elements into reusable components.
-				Forget about block registration and save callbacks.
-				Build a REST route in minutes.
-				<br /> <br />
-				You&apos;ll never want to go back!
+CicadaVPN's support hub is designed to make resolving all your issues effortless, from account and payment inquiries to technical troubleshooting.
+    <br /> <br />
+    Access our intelligent chatbot for immediate assistance on any topic related to CicadaVPN. For more detailed queries, reach out via email and receive personalized support. Our extensive library of help articles is available 24/7 for those who prefer to solve issues independently.
+    <br /> <br />
+    Whether you need help with account management, payment issues, technical problems, or understanding our services, our streamlined support experience is here to ensure your online privacy and security are always protected. With CicadaVPN, you’ll find support that meets your needs and exceeds your expectations.
+
+	
 			</ImageAndText>
 
 			<div id='get-started'>

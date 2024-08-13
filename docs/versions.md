@@ -1,6 +1,6 @@
 ---
 id: versions
-title: Versions
+title: Downloads
 ---
 
 Now that you understand what makes the eightshift Development Kit tick, here is a quick reminder about what library versions this documentation refers to.

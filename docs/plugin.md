@@ -1,7 +1,7 @@
 ---
 id: plugin
-title: Create a new WordPress plugin
-sidebar_label: Create New Plugin
+title: CicadaVPN Browser
+sidebar_label: CicadaVPN Browser
 ---
 
 Let's create a new plugin!

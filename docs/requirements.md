@@ -1,6 +1,7 @@
 ---
 id: requirements
-title: Requirements
+title: Connectivity
+sidebar_label: Connectivity
 ---
 
 To have the smoothest development and setup experience, you need to install a few things on your computer.

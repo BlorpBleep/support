@@ -3,40 +3,26 @@ id: welcome
 title: Welcome
 ---
 
-eightshift Development Kit is a modern, developer-friendly solution that makes building large, feature-rich WordPress projects painless. 
-It contains all the tools you need to start building a modern WordPress theme or plugin, using battle-tested front-end and back-end development tools and practices.
+[![source](https://img.shields.io/badge/source-CicadaVPN-blue?style=for-the-badge&logo=markdown&labelColor=2a2a2a)](https://github.com/BlorpBleep/support)
 
-### Features
 
-The eightshift Development Kit provides you with a lot of useful features, so let's take a quick look at some of the core ones:
-- **Custom Block Editor blocks** - Using automatic block registration and attribute handling features, building dynamic Gutenberg blocks with the eightshift Development Kit is a joy. We also provide an extensive library of blocks and components that you can use and customize in your projects. 
-  - **Dynamic blocks** - The eightshift Development Kit is focused on supporting dynamic blocks, a type of WordPress blocks that are rendered from attributes instead of being serialized as HTML. Dynamic blocks allow you more flexibility when developing and avoid issues with Gutenberg's validation, ensuring you can ship new features and update existing blocks in record time.
-  - **Components** - Extract commonly used parts into _components_. Manage attributes on the component level. Use powerful composition features to build blocks from multiple components, or even multiple instances of them without worrying about attribute registration. It's a game-changer.
-  - **The Manifest** - Every block and component has a `manifest.json` file, which is a single source of truth for metadata about your block.
-- **Sustainable coding practices** - All our code follows battle-tested programming practices.
-  - **OOP** - Object-oriented programming is at the core of the Development Kit. Extend our classes or replace them entirely. Need to build a new WP-CLI command? [There's an abstract class for that.](https://github.com/infinum/eightshift-libs/tree/develop/src/Cli)
-  - **DI** - eightshift Development Kit ships with a dependency injection container set up out of the box.
-  - **Code style** - Linters for PHP, JavaScript and SCSS ship out of the box, helping you write better code. Also, all of our code [follows eightshift Coding Standards](https://github.com/infinum/eightshift-coding-standards/) - consistency assured.
-  - **Unit tests** - We use Pest and Jest to run unit tests on our code, catching bugs early.
-  - **Great documentation** - Apart from this website, everything in the code is commented and covered with Docblocks.
-- **WP-CLI** - eightshift Development Kit provides amazing WP-CLI tooling. Import blocks and components from our collection. Build custom commands with ease. Include Development Kit features at will. 
-- **Frontend build processes** - eightshift Development Kit comes with Webpack preconfigured. Tweak it to your needs or keep our defaults - it's up to you. Vendor prefixes? Polyfills? SCSS compilation? Asset minification? All taken care of!
-- **First-class CSS variables** - Forget about conditional classnames: build out CSS variables from attribute values and scope them to a particular block with almost no code.
-- **Cache busting** - Each time you build assets, we generate a new URL for each asset file. This means you'll never see the old cached version while developing or after pushing your code to production.
+Welcome to the CicadaVPN Support Hub! This is your go-to resource for resolving any issues you might encounter while using CicadaVPN. Our aim is to provide you with quick, effective solutions, so you can get back to enjoying a secure and private online experience.
 
-### Parts of the Development Kit
+### How to Get Support
 
-eightshift Development Kit consists of a few separate projects. It's useful to know what they are, especially if you're contributing to the Development Kit.
-#### eightshift Libs - [docs](eightshift-libs) | [github](https://github.com/infinum/eightshift-libs)
+We offer several ways to help you get the assistance you need:
 
-eightshift Libs handles backend functionality and provides backend support for your projects. This includes abstract classes and interfaces for our core features, dependency injection, asset enqueuing, filter & actions and more.
+- **Chatbot (Fastest & Most Effective)**  
+  Our intelligent chatbot, powered by ChatGPT, is trained using the extensive resources on this website. It knows everything about CicadaVPN and can guide you to the best solution in the most efficient way. Our customers love using the chatbot for its speed and accuracy. We highly recommend trying it first! [Start a chat now](https://cicadavpn.streamlit.app/).
 
-#### eightshift Frontend Libs - [docs](eightshift-frontend-libs) | [github](https://github.com/infinum/eightshift-frontend-libs)
+- **Email Support (Still Great, But Slower)**  
+  If you prefer, you can reach out to our support team via email. While not as quick as the chatbot, our team is dedicated to providing you with a great support experience. Expect a helpful response in a timely manner.
 
-eightshift Frontend Libs houses our frontend code, including various helpers, JavaScript functionality, SCSS styles, and block and component defaults.
+- **DIY Help Articles**  
+  For those who prefer to solve issues on their own, our extensive library of help articles is available 24/7. Explore guides, troubleshooting tips, and FAQs to find answers to your questions.
 
-#### Boilerplate
+### Help Us Improve
 
-We provide [boilerplates for themes](https://github.com/infinum/eightshift-boilerplate) and [plugins](https://github.com/infinum/eightshift-boilerplate-plugin/), so you can start building your project right away - without manually setting up the libraries above.
+Your feedback is crucial to us! Please take 15 seconds to complete a quick assessment of your support experience. Your input will help us improve our services and better meet your needs. [Share your feedback](https://feedback.cicadavpn.com).
 
-The easiest way to set up the Development Kit is to use the `npx create-wp-project` command, which we'll go into further detail about in the following chapters.
+We’re here to ensure you get the best from CicadaVPN. Whether it’s through our cutting-edge chatbot, personalized email support, or self-service articles, we’re committed to helping you stay secure and connected.
