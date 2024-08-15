@@ -3,7 +3,7 @@ const { themes } = require('prism-react-renderer');
 const darkTheme = themes.dracula;
 
 module.exports = {
-	title: 'eightshift Development kit',
+	title: 'CicadaVPN Support',
 	tagline:
 		'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
 	url: 'https://eightshift.com',
@@ -29,7 +29,7 @@ module.exports = {
 				{
 					to: 'docs/welcome',
 					activeBasePath: 'docs',
-					label: 'DevKit',
+					label: 'Help',
 					position: 'right',
 				},
 				{
