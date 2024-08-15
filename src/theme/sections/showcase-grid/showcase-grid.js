@@ -12,8 +12,8 @@ export default function ShowcaseGrid(props) {
 		privateType,
 	} = props;
 
-	const headingTitle = privateType ? 'Infinum showcase' : 'Showcase';
-	const headingSubtitle = privateType ? "See all the awesome websites built by Infinum's WordPress team." : 'See the awesome websites people are building with eightshift Boilerplate.';
+	const headingTitle = privateType ? 'Infinum showcase' : 'Help Videos';
+	const headingSubtitle = privateType ? "See all the awesome self-help videos built by CicadaVPN's video team." : 'See all the awesome self-help videos brought to you by the CicadaVPN support team.';
 	const ctaTitle = privateType ? "Let's get in touch" : (<span>Want to add your <br /> project to the list?</span>);
 	const ctaSubtitle = privateType ? 'Contact us' : 'Open an issue on GitHub';
 	const ctaUrl = privateType ? 'https://infinum.com/contact/' : 'https://github.com/infinum/eightshift-docs/issues';
