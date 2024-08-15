@@ -95,7 +95,7 @@ module.exports = {
 			'migrations/6-7',
 			'migrations/5-6',
 		],
-		'Additional Libraries': [
+		'Policies': [
 			'additional-libraries/boilerplate',
 			'additional-libraries/boilerplate-plugin',
 			'additional-libraries/frontend-libs',
