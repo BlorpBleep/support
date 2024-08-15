@@ -27,39 +27,35 @@ module.exports = {
 			},
 			items: [
 				{
+					to: '/blog',
+					activeBasePath: 'blog',
+					label: 'FAQ',
+					position: 'right',
+				},
+				{
 					to: 'docs/welcome',
 					activeBasePath: 'docs',
-					label: 'Help',
+					label: 'Connectivity',
 					position: 'right',
 				},
 				{
 					to: 'forms/welcome',
 					activeBasePath: 'forms',
-					label: 'Forms',
+					label: 'General Info',
 					position: 'right',
 				},
 				{
 					to: '/components/welcome',
 					activeBasePath: 'components',
-					label: 'Components',
+					label: 'Billing',
 					position: 'right',
 				},
-				{
-					to: '/playground/',
-					activeBasePath: 'playground',
-					label: 'Playground',
-					position: 'right',
-				},
-				{
-					to: '/blog',
-					activeBasePath: 'blog',
-					label: 'Blog',
-					position: 'right',
-				},
+
+
 				{
 					to: '/showcase',
 					activeBasePath: 'showcase',
-					label: 'Showcase',
+					label: 'Videos',
 					position: 'right',
 				},
 			],
