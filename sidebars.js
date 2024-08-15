@@ -534,6 +534,6 @@ module.exports = {
 				],
 			},
 		],
-		'Crash Course': ['crash-course/intro'],
+		'General': ['crash-course/intro'],
 	},
 };
